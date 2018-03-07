@@ -1,6 +1,6 @@
 # Material Darker JupyterLab Extension
 
-The Material Darker theme for JupyterLab
+This is my port of the [Material Darker theme](http://equinsuocha.io/material-theme/#/darker) for JupyterLab. It's a work in progress.
 
 ## Install
 
