@@ -1,6 +1,6 @@
-{
+  {
   "name": "MaterialDarker",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "The Material Darker theme for JupyterLab",
   "homepage": "https://github.com/oriolmirosa/jupyterlab_materialdarker",
   "bugs": {
@@ -35,8 +35,8 @@
     "watch:webpack": "webpack --watch"
   },
   "dependencies": {
-    "@jupyterlab/application": "^0.15.4",
-    "@jupyterlab/apputils": "^0.15.5",
+    "@jupyterlab/application": "^0.16.2",
+    "@jupyterlab/apputils": "^0.16.3",
     "font-awesome": "~4.7.0",
     "npm": "^5.7.1",
     "style-loader": "^0.20.3"
