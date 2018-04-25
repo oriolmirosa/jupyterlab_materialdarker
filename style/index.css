@@ -14,3 +14,14 @@ tt, code, kbd, samp, pre {
   font-size: var(--jp-code-font-size);
   line-height: var(--jp-code-line-height);
 }
+
+.jp-RenderedHTMLCommon code {
+    border: 0;
+    background-color: var(--jp-layout-color2);
+    color: var(--jp-content-font-color1);
+    font-family: var(--jp-code-font-family);
+    font-size: var(--jp-code-font-size);
+    line-height: var(--jp-code-line-height);
+    padding: 2px;
+    border-radius: 2px;
+}

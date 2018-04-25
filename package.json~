@@ -1,10 +1,10 @@
-  {
+{
   "name": "MaterialDarker",
-  "version": "0.3.0",
+  "version": "0.1.0",
   "description": "The Material Darker theme for JupyterLab",
-  "homepage": "https://github.com/oriolmirosa/jupyterlab_materialdarker",
+  "homepage": "https://github.com/oriolmirosa/materialdarker",
   "bugs": {
-    "url": "https://github.com/oriolmirosa/jupyterlab_materialdarker/issues"
+    "url": "https://github.com/oriolmirosa/materialdarker/issues"
   },
   "license": "BSD-3-Clause",
   "author": "Oriol Mirosa",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/oriolmirosa/jupyterlab_materialdarker.git"
+    "url": "https://github.com/oriolmirosa/materialdarker.git"
   },
   "scripts": {
     "build": "run-p build:**",
@@ -35,8 +35,8 @@
     "watch:webpack": "webpack --watch"
   },
   "dependencies": {
-    "@jupyterlab/application": "^0.16.2",
-    "@jupyterlab/apputils": "^0.16.3",
+    "@jupyterlab/application": "^0.15.4",
+    "@jupyterlab/apputils": "^0.15.5",
     "font-awesome": "~4.7.0",
     "npm": "^5.7.1",
     "style-loader": "^0.20.3"
