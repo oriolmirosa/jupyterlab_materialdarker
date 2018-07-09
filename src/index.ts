@@ -18,7 +18,7 @@ const plugin: JupyterLabPlugin<void> = {
     manager.register({
       name: 'Material Darker',
       load: function() {
-        return manager.loadCSS('MaterialDarker/index.css');
+        return manager.loadCSS('@oriolmirosa/jupyterlab_materialdarker/index.css');
       },
       unload: function() {
         return Promise.resolve(void 0);
