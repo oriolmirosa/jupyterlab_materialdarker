@@ -229,7 +229,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-cell-editor-active-background: var(--jp-layout-color1);
   --jp-cell-editor-active-border-color: var(--jp-brand-color0);
 
-  --jp-cell-prompt-width: 90px;
+  --jp-cell-prompt-width: 64px;
   --jp-cell-prompt-font-family: 'PragmataPro', 'Source Code Pro', monospace;
   --jp-cell-prompt-letter-spacing: 0px;
   --jp-cell-prompt-opacity: 1.0;
