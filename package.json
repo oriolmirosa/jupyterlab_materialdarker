@@ -1,6 +1,6 @@
-{
+  {
   "name": "@oriolmirosa/jupyterlab_materialdarker",
-  "version": "0.3.4",
+  "version": "0.3.7",
   "description": "The Material Darker theme for JupyterLab",
   "homepage": "https://github.com/oriolmirosa/jupyterlab_materialdarker",
   "bugs": {
