@@ -237,10 +237,10 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-cell-prompt-not-active-font-color: var(--md-grey-700);
   /* A custom blend of MD grey and blue 600
    * See https://meyerweb.com/eric/tools/color-blend/#546E7A:1E88E5:5:hex */
-  --jp-cell-inprompt-font-color: #4A4A4A;
+  --jp-cell-inprompt-font-color: #808080;
   /* A custom blend of MD grey and orange 600
    * https://meyerweb.com/eric/tools/color-blend/#546E7A:F4511E:5:hex */
-  --jp-cell-outprompt-font-color: #4A4A4A;
+  --jp-cell-outprompt-font-color: #808080;
 
   /* Notebook specific styles */
 
@@ -299,7 +299,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-mirror-editor-punctuation-color: #89DDFF;
   --jp-mirror-editor-property-color: #82AAFF;
   --jp-mirror-editor-operator-color: #89DDFF;
-  --jp-mirror-editor-comment-color: #4A4A4A;
+  --jp-mirror-editor-comment-color: #808080;
   --jp-mirror-editor-string-color: #C3E88D;
   --jp-mirror-editor-string-2-color: #C3E88D;
   --jp-mirror-editor-meta-color: #82AAFF;
