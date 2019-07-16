@@ -1,15 +1,27 @@
 {
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
     "declaration": true,
     "noImplicitAny": true,
     "noEmitOnError": true,
     "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "preserveWatchOutput": true,
     "module": "commonjs",
     "moduleResolution": "node",
-    "target": "ES5",
-    "outDir": "./lib",
-    "lib": ["ES5", "ES2015.Promise", "DOM", "ES2015.Collection"],
-    "types": []
+    "resolveJsonModule": true,
+    "target": "es2015",
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "jsx": "react",
+    "types": [],
+    "outDir": "lib",
+    "rootDir": "src"
   },
-  "include": ["src/*"]
+  "include": [
+    "src/*"
+  ]
 }

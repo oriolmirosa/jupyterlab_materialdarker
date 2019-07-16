@@ -12,8 +12,7 @@
     "lib/*.d.ts",
     "lib/*.js.map",
     "lib/*.js",
-    "static/index.css",
-    "static/*.ttf"
+    "style/*"
   ],
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -25,36 +24,33 @@
     "url": "https://github.com/oriolmirosa/jupyterlab_materialdarker.git"
   },
   "scripts": {
-    "build": "run-p build:**",
-    "build:typescript": "tsc",
+    "build": "tsc -b",
     "build:webpack": "webpack",
-    "clean": "rimraf lib",
-    "prepublishOnly": "npm run build",
-    "watch": "run-p watch:**",
-    "watch:typescript": "tsc -w",
+    "clean": "rimraf lib && rimraf static",
+    "prepare": "npm run clean && npm run build",
+    "watch": "tsc -w",
     "watch:webpack": "webpack --watch"
   },
   "dependencies": {
-    "@jupyterlab/application": "^0.19.1",
-    "@jupyterlab/apputils": "^0.19.1",
-    "font-awesome": "~4.7.0",
-    "npm": "^5.7.1",
-    "style-loader": "^0.20.3"
+    "@jupyterlab/application": "^1.0.0",
+    "@jupyterlab/apputils": "^1.0.0"
   },
   "devDependencies": {
-    "css-loader": "~0.28.7",
-    "extract-text-webpack-plugin": "~2.1.2",
-    "npm-run-all": "~4.1.1",
     "rimraf": "~2.6.2",
-    "svg-url-loader": "~2.3.1",
+    "typedoc": "~0.12.0",
+    "typescript": "~3.3.1",
+    "css-loader": "~0.28.7",
+    "mini-css-extract-plugin": "~0.4.4",
     "svgo": "~1.0.4",
+    "svg-url-loader": "~2.3.1",
     "svgo-loader": "~2.1.0",
-    "typescript": "~2.6.2",
-    "url-loader": "~0.5.9",
-    "webpack": "~2.7.0"
+    "url-loader": "~1.0.1",
+    "watch": "~1.0.2",
+    "webpack": "~4.12.0",
+    "webpack-cli": "^3.0.3"
   },
   "jupyterlab": {
     "extension": true,
-    "themeDir": "static"
+    "themePath": "style/index.css"
   }
 }

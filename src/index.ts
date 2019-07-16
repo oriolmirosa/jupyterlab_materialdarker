@@ -1,6 +1,7 @@
 
 import {
-  JupyterLab, JupyterLabPlugin
+  JupyterFrontEnd,
+  JupyterFrontEndPlugin
 } from '@jupyterlab/application';
 
 import {
@@ -11,19 +12,17 @@ import {
 /**
  * A plugin for the MaterialDarker theme for JupyterLab
  */
-const plugin: JupyterLabPlugin<void> = {
+const plugin: JupyterFrontEndPlugin<void> = {
   id: 'MaterialDarker:plugin',
   requires: [IThemeManager],
-  activate: function(app: JupyterLab, manager: IThemeManager) {
+  activate: function (app: JupyterFrontEnd, manager: IThemeManager) {
+    const style = '@oriolmirosa/jupyterlab_materialdarker/index.css';
+
     manager.register({
       name: 'Material Darker',
       isLight: false,
-      load: function() {
-        return manager.loadCSS('@oriolmirosa/jupyterlab_materialdarker/index.css');
-      },
-      unload: function() {
-        return Promise.resolve(void 0);
-      }
+      load: () => manager.loadCSS(style),
+      unload: () => Promise.resolve(undefined)
     });
   },
   autoStart: true
