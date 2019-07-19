@@ -7,7 +7,13 @@
     "url": "https://github.com/oriolmirosa/jupyterlab_materialdarker/issues"
   },
   "license": "BSD-3-Clause",
-  "author": "Oriol Mirosa",
+  "author": "Oriol Mirosa", 
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension",
+    "jupyterlab-theme"
+  ],
   "files": [
     "lib/*.d.ts",
     "lib/*.js.map",
