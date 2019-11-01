@@ -31,7 +31,6 @@
 
   --jp-about-header-logo: url('icons/jupyter/jupyter.svg');
   --jp-about-header-wordmark: url('images/jupyterlab-wordmark.svg');
-  --jp-icon-add: url('icons/md/ic_add_24px.svg');
   --jp-icon-notebook-selected: url('icons/jupyter/notebook_selected.svg');
   --jp-icon-notebook: url('icons/jupyter/notebook.svg');
   --jp-icon-bug: url('icons/md/bug.svg');
@@ -47,8 +46,6 @@
   --jp-icon-close: url('icons/md/close.svg');
   --jp-icon-console-selected: url('icons/jupyter/console_selected.svg');
   --jp-icon-console: url('icons/jupyter/console.svg');
-  --jp-icon-copy: url('icons/md/copy.svg');
-  --jp-icon-cut: url('icons/md/cut.svg');
   --jp-icon-download: url('icons/md/download.svg');
   --jp-icon-edit: url('icons/md/edit.svg');
   --jp-icon-ellipses: url('icons/md/ellipses.svg');
@@ -82,14 +79,10 @@
   --jp-icon-more: url('icons/md/more-horiz.svg');
   --jp-icon-new-folder: url('icons/md/ic_create_new_folder_24px.svg');
   --jp-icon-palette: url('icons/md/ic_palette_24px.svg');
-  --jp-icon-paste: url('icons/md/paste.svg');
   --jp-icon-python-selected: url('icons/jupyter/python_selected.svg');
   --jp-icon-python: url('icons/jupyter/python.svg');
   --jp-icon-r-selected: url('icons/jupyter/r_selected.svg');
   --jp-icon-r: url('icons/jupyter/r.svg');
-  --jp-icon-refresh: url('icons/md/ic_refresh_18px.svg');
-  --jp-icon-run: url('icons/md/run.svg');
-  --jp-icon-save: url('icons/md/save.svg');
   --jp-icon-search-white: url('icons/md/search.svg');
   --jp-icon-search: url('icons/md/search.svg');
   --jp-icon-search-arrow-up: url('icons/jupyter/search_arrow_up.svg');
@@ -100,7 +93,6 @@
   --jp-icon-settings: url('icons/md/ic_settings_24px.svg');
   --jp-icon-spreadsheet-selected: url('icons/jupyter/csv_selected.svg');
   --jp-icon-spreadsheet: url('icons/jupyter/csv.svg');
-  --jp-icon-stop: url('icons/md/stop.svg');
   --jp-icon-stop-circle: url('icons/md/stop-circle.svg');
   --jp-icon-terminal: url('icons/jupyter/terminal.svg');
   --jp-icon-tab: url('icons/md/ic_tab_24px.svg');
