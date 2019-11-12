@@ -1,13 +1,13 @@
 {
   "name": "@oriolmirosa/jupyterlab_materialdarker",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "The Material Darker theme for JupyterLab",
   "homepage": "https://github.com/oriolmirosa/jupyterlab_materialdarker",
   "bugs": {
     "url": "https://github.com/oriolmirosa/jupyterlab_materialdarker/issues"
   },
   "license": "BSD-3-Clause",
-  "author": "Oriol Mirosa", 
+  "author": "Oriol Mirosa",
   "keywords": [
     "jupyter",
     "jupyterlab",
