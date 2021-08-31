@@ -86,11 +86,11 @@ setup_args = dict(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
-        "Framework :: Jupyter",
-        "Framework :: Jupyter :: JupyterLab :: 3",
-        "Framework :: Jupyter :: JupyterLab :: Extensions",
-        "Framework :: Jupyter :: JupyterLab :: Extensions :: Prebuilt",
-        "Framework :: Jupyter :: JupyterLab :: Extensions :: Themes",
+        "Framework :: Jupyter"
+        # "Framework :: Jupyter :: JupyterLab :: 3",
+        # "Framework :: Jupyter :: JupyterLab :: Extensions",
+        # "Framework :: Jupyter :: JupyterLab :: Extensions :: Prebuilt",
+        # "Framework :: Jupyter :: JupyterLab :: Extensions :: Themes",
     ],
 )
 
