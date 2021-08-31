@@ -2,6 +2,8 @@
 
 This is my port of the [Material Darker theme](http://equinsuocha.io/material-theme/#/darker) for JupyterLab. It's a work in progress.
 
+The extension has now been updated to support JupyterLab 3.x.
+
 ## Install
 
 ```
