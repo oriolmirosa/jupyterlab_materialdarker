@@ -6,8 +6,14 @@ The extension has now been updated to support JupyterLab 3.x.
 
 ## Install
 
+From npm:
 ```
 jupyter labextension install @oriolmirosa/jupyterlab_materialdarker
+```
+
+or directly from PyPi:
+```
+pip install jupyterlab_materialdarker
 ```
 
 After launching JupyterLab, select the `Material Darker` theme from the main menu: `Settings` > `JupyterLab Theme` > `Material Darker`
