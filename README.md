@@ -19,4 +19,4 @@ pip install jupyterlab_materialdarker
 After launching JupyterLab, select the `Material Darker` theme from the main menu: `Settings` > `JupyterLab Theme` > `Material Darker`
 
 
-![The Material Darker theme on JupyterLab](https://user-images.githubusercontent.com/6955013/37124604-0450d6dc-2237-11e8-95d8-0e822ee92c49.png)
+![The Material Darker theme on JupyterLab](https://user-images.githubusercontent.com/6955013/208167819-16d35142-8d74-4195-8b1f-9e07d164c611.png)
