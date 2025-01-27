@@ -1,6 +1,6 @@
 {
   "name": "jupyterlab_materialdarker",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "The Material Darker theme for JupyterLab.",
   "keywords": [
     "jupyter",
@@ -92,7 +92,7 @@
     "outputDir": "jupyterlab_materialdarker/labextension",
     "themePath": "style/index.css",
     "_build": {
-      "load": "static/remoteEntry.e645d436a1bb830810d0.js",
+      "load": "static/remoteEntry.c631ae15bddb72d4d92c.js",
       "extension": "./extension"
     }
   },

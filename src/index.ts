@@ -15,7 +15,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
   requires: [IThemeManager],
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
     console.log('JupyterLab extension jupyterlab_materialdarker is activated!');
-    const style = 'jupyterlab_materialdarker/index.css';
+    const style = '@oriolmirosa/jupyterlab_materialdarker/index.css';
 
     manager.register({
       name: 'Material Darker',
