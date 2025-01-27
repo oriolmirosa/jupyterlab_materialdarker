@@ -6,15 +6,16 @@ import {
 import { IThemeManager } from '@jupyterlab/apputils';
 
 /**
- * Initialization data for the @oriolmirosa/jupyterlab_materialdarker extension.
+ * Initialization data for the jupyterlab_materialdarker extension.
  */
-const extension: JupyterFrontEndPlugin<void> = {
-  id: 'MaterialDarker:plugin',
-  requires: [IThemeManager],
+const plugin: JupyterFrontEndPlugin<void> = {
+  id: 'jupyterlab_materialdarker:plugin',
+  description: 'The Material Darker theme for JupyterLab.',
   autoStart: true,
+  requires: [IThemeManager],
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
-    console.log('JupyterLab extension @oriolmirosa/jupyterlab_materialdarker is activated!');
-    const style = '@oriolmirosa/jupyterlab_materialdarker/index.css';
+    console.log('JupyterLab extension jupyterlab_materialdarker is activated!');
+    const style = 'jupyterlab_materialdarker/index.css';
 
     manager.register({
       name: 'Material Darker',
@@ -25,4 +26,4 @@ const extension: JupyterFrontEndPlugin<void> = {
   }
 };
 
-export default extension;
+export default plugin;

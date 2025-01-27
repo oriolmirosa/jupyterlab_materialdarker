@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.3.7
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: oriolmirosa@gmail.com
+author_name: Oriol Mirosa
+has_binder: false
+has_settings: false
+kind: theme
+labextension_name: jupyterlab_materialdarker
+project_short_description: The Material Darker theme for JupyterLab.
+python_name: jupyterlab_materialdarker
+repository: https://github.com/oriolmirosa/jupyterlab_materialdarker
+test: false
+
